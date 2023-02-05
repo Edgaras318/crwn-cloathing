@@ -8,7 +8,7 @@ import { useState } from 'react';
 import FormInput from '../../components/form-input/form-input.component';
 import Button from '../../components/button/button.component';
 
-import './sign-in-form.component.scss';
+import './sign-in-form.styles.scss';
 
 const defaultFormFields = {
   email: '',
