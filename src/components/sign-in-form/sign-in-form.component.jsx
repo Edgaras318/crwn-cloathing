@@ -55,6 +55,7 @@ const SignInForm = () => {
           required
           onChange={handleChange}
           name='email'
+          autoComplete='email'
           value={email}
         />
 
@@ -64,6 +65,7 @@ const SignInForm = () => {
           required
           onChange={handleChange}
           name='password'
+          autoComplete='current-password'
           value={password}
         />
         <ButtonsContainer>
@@ -71,8 +73,7 @@ const SignInForm = () => {
           <Button
             buttonType={BUTTON_TYPE_CLASSES.google}
             type='button'
-            onClick={signInWithGoogle}
-          >
+            onClick={signInWithGoogle}>
             Sign In With Google
           </Button>
         </ButtonsContainer>

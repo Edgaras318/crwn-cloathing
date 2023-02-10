@@ -67,6 +67,7 @@ const SignUpForm = () => {
           required
           onChange={handleChange}
           name='displayName'
+          autoComplete='displayName'
           value={displayName}
         />
 
@@ -76,6 +77,7 @@ const SignUpForm = () => {
           required
           onChange={handleChange}
           name='email'
+          autoComplete='email'
           value={email}
         />
 
@@ -85,6 +87,7 @@ const SignUpForm = () => {
           required
           onChange={handleChange}
           name='password'
+          autoComplete='new-password'
           value={password}
         />
 
@@ -94,6 +97,7 @@ const SignUpForm = () => {
           required
           onChange={handleChange}
           name='confirmPassword'
+          autoComplete='new-password'
           value={confirmPassword}
         />
         <Button type='submit'>Sign Up</Button>
